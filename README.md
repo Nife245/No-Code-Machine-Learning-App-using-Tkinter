@@ -44,7 +44,7 @@ Welcome to the **No-Code Machine Learning App**! This project is a user-friendly
 
 2. Navigate to the project directory:
    ```
-   cd No-Code-Machine-Learning-App-using-Tkinter
+   cd ML-No COde
    ```
 
 3. **Install the required packages:**
@@ -69,7 +69,7 @@ Welcome to the **No-Code Machine Learning App**! This project is a user-friendly
 
 ![Data Import Screen](images/data_import_screen.png "Data Import Interface")
 
-To import your data, click on the "Import Data" button and select your CSV file.
+To import your data, click on the "Import Data" button and select your CSV or Excel file.
 
 ### Model Training
 
@@ -82,7 +82,9 @@ Choose from our selection of machine learning algorithms:
 - Decision Tree Regression
 - Decision Tree Classification 
 - Support Vector Regression
-- Support Vector Classification 
+- Support Vector Classification
+
+3. After exporting the trained model , make use of production.py file to use trained model in production
 
 ## Visual Guide
 
@@ -98,17 +100,17 @@ Choose from a variety of pre-configured machine learning algorithms.
 
 ## How It Works
 
-1. **Data Import**: Users can load CSV files through the GUI.
+1. **Data Import**: Users can load CSV and Excel files through the GUI.
 2. **Preprocessing**: The app handles basic preprocessing tasks automatically.
 3. **Model Selection**: Users can choose from pre-configured machine learning algorithms.
 4. **Training**: The selected model is trained on the provided data.
-5. **Evaluation**: Results are displayed, including accuracy metrics and visualizations.
+5. **Evaluation**: Results are displayed, including accuracy metrics.
 6. **Export**: Trained models can be saved for future use.
 
 ## Customization
 
-- To add new machine learning algorithms, modify the `model_trainer.py` file.
-- To change the GUI layout, update the Tkinter components in `main.py`.
+- To add new machine learning algorithms, modify the `MLprocess.py` file.
+- To change the GUI layout, update the customtkinter components in `main.py`.
 
 ## Troubleshooting
 
@@ -119,8 +121,6 @@ Choose from a variety of pre-configured machine learning algorithms.
 
 - **Issue**: "No module named 'tkinter'"
   **Solution**: Install Tkinter using your system's package manager
-
-For more issues, please check the [Issues](https://github.com/yourusername/no-code-ml-app/issues) section of the repository.
 
 ## Contributing
 
