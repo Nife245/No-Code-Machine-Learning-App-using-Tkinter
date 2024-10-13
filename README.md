@@ -11,7 +11,6 @@
 - [Customization](#customization)
 - [Troubleshooting](#troubleshooting)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -33,7 +32,6 @@ Welcome to the **No-Code Machine Learning App**! This project is a user-friendly
 - NumPy
 - Pandas
 - Scikit-learn
-- Matplotlib
 
 ## Installation
 
@@ -67,9 +65,9 @@ Welcome to the **No-Code Machine Learning App**! This project is a user-friendly
 
 ### Data Import
 
-![Data Import Screen](images/data_import_screen.png "Data Import Interface")
+![Data Import Screen](Machine_learning_No_code_Images/upload_image.png "Data Import Interface")
 
-To import your data, click on the "Import Data" button and select your CSV or Excel file.
+To import your data, click on the "Upload File" button and select your CSV or Excel file.
 
 ### Model Training
 
@@ -84,17 +82,18 @@ Choose from our selection of machine learning algorithms:
 - Support Vector Regression
 - Support Vector Classification
 
-3. After exporting the trained model , make use of production.py file to use trained model in production
-
+3. After saving the model:
+   - Navigate to production.py
+   - 
 ## Visual Guide
 
 ### Application Interface
-![Application Interface](images/app_interface.png "Main Application Interface")
+![Application Interface](Machine_learning_No_code_Images/app_interface.png "Main Application Interface")
 
 Our intuitive main interface guides you through the machine learning process step by step.
 
 ### Model Selection
-![Model Selection](images/model_selection.png "Model Selection Screen")
+![Model Selection](Machine_learning_No_code_Images/pick_model.png "Model Selection Screen")
 
 Choose from a variety of pre-configured machine learning algorithms.
 
@@ -105,7 +104,8 @@ Choose from a variety of pre-configured machine learning algorithms.
 3. **Model Selection**: Users can choose from pre-configured machine learning algorithms.
 4. **Training**: The selected model is trained on the provided data.
 5. **Evaluation**: Results are displayed, including accuracy metrics.
-6. **Export**: Trained models can be saved for future use.
+   ![Result](Machine_learning_No_code_Images/result.png "Result")
+7. **Export**: Trained models can be saved for future use.
 
 ## Customization
 
