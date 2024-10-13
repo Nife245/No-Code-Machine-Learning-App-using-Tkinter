@@ -84,7 +84,10 @@ Choose from our selection of machine learning algorithms:
 
 3. After saving the model:
    - Navigate to production.py
-   - 
+   - edit the folder object to the folder path that contains the saved model
+   - make use of the preprocess function to generate predictions
+   - Note that the preprocess function receives the file to be processed and the file should be a dataframe
+     
 ## Visual Guide
 
 ### Application Interface
